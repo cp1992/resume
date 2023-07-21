@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+#header {
+  background-color: #537F78;
+}
+
+#header > img {
+  padding-top: 30px;
+  width: 50%;
+  border-radius: 50%;
+}
+
+#header * {
+  color: #FFFFFF;
+}
+
+#name {
+  font-size: 36px;
+}
+
+#title {
+  font-size: 30px;
+}
+
+#contact-me {
+  margin-left: 9%;
+  padding-bottom: 36px;
+}
+
+#contact-me p {
+  display: inline;
+  padding-left: 8px;
+}
+
+#contact-me * {
+  font-size: 24px;
+}
+
+#content-1 {
+  background-color: #F8F8F8;
+  padding: 8px;
+}
+
+#content-1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#content-1 li {
+  padding: 4px;
+}
+
+
+
+#content-2 {
+  background-color: #FFFFFF;
+  padding: 8px;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.header-text {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.icon-with-text p {
+  display: inline;
+  padding-left: 4px;
+}
+
