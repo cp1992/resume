@@ -18,15 +18,20 @@ body {
 
 #name {
   font-size: 36px;
+  margin-bottom: 0;
 }
 
 #title {
   font-size: 30px;
+  margin-top: 0;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #contact-me {
   margin-left: 9%;
   padding-bottom: 36px;
+  white-space: nowrap;
 }
 
 #contact-me p {
@@ -76,5 +81,16 @@ body {
 .icon-with-text p {
   display: inline;
   padding-left: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+  }
+
+  #sidebar {
+    height: 100vh;
+    width: 30%;
+  }
 }
 
